@@ -6,7 +6,7 @@ public class AlignTeste {
 		
 		AlignFrame frame = new AlignFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setSize(400, 200);
+		frame.setSize(300, 150);
 		frame.setVisible(true);
 
 	}
