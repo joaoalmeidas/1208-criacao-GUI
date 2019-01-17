@@ -43,13 +43,13 @@ public class AlignFrame extends JFrame {
 		
 		textos = new JPanel();
 		textoX = new JTextField();
-		textoX.setColumns(3);
+		textoX.setColumns(2);
 		textoY = new JTextField();
-		textoY.setColumns(3);
-		labelX = new JLabel("X: ");
-		labelY = new JLabel("Y: ");
+		textoY.setColumns(2);
+		labelX = new JLabel("X:");
+		labelY = new JLabel("Y:");
 		
-		textos.setLayout(new GridLayout(2, 2, 0, 15));
+		textos.setLayout(new GridLayout(2, 2, -10, 10));
 		
 		textos.add(labelX);
 		textos.add(textoX);
@@ -64,7 +64,7 @@ public class AlignFrame extends JFrame {
 		botaoCancelar = new JButton("Cancelar");
 		botaoAjuda = new JButton("Ajuda");
 		
-		botoes.setLayout(new GridLayout(3, 1, 1, 10));
+		botoes.setLayout(new GridLayout(3, 1, 0, 10));
 		
 		botoes.add(botaoOk);
 		botoes.add(botaoCancelar);
